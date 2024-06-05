@@ -1,3 +1,48 @@
 body {
+  background-color: gray;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed;
+}
+h2 {
+  margin: 0;
+  font-size: 28px;
+}
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 36px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+footer {
   text-align: center;
 }
