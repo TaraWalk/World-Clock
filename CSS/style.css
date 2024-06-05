@@ -1,5 +1,8 @@
 body {
   background-color: gray;
+  background-image: url("https://images.hdqwalls.com/download/my-neighbor-totoro-wallpaper-2560x1600.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
