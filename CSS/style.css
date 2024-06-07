@@ -32,7 +32,7 @@ h2 {
 }
 .time {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .time small {
   font-size: 15px;
@@ -54,4 +54,9 @@ footer {
   text-align: center;
   font-size: 17px;
   color: aliceblue;
+}
+
+a {
+  color: rgb(185, 156, 240);
+  font-weight: bolder;
 }
