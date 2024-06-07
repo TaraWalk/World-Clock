@@ -7,7 +7,7 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 50px auto;
   background-color: rgb(228, 241, 231);
   padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -48,6 +48,7 @@ select {
 h1 {
   font-size: 40px;
   text-align: center;
+  font-weight: 750;
 }
 footer {
   text-align: center;
