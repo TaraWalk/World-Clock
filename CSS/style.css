@@ -1,14 +1,14 @@
 body {
   background-image: url("https://images.hdqwalls.com/download/my-neighbor-totoro-wallpaper-2560x1600.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   font-family: "Lato";
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: rgb(212, 224, 247);
+  background-color: rgb(228, 241, 231);
   padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;

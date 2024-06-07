@@ -18,9 +18,23 @@ function updateTime() {
 
   tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do YYYY");
   tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
+
+  // Hawaii
+  let hawaiiElement = document.querySelector("#hawaii");
+  let hawaiiDateElement = hawaiiElement.querySelector(".date");
+  let hawaiiTimeElement = hawaiiElement.querySelector(".time");
+  let hawaiiTime = moment().tz("US/Hawaii");
+
+  hawaiiDateElement.innerHTML = hawaiiTime.format("MMMM Do YYYY");
+  hawaiiTimeElement.innerHTML = hawaiiTime.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
 }
 function updateCity(event) {
   let cityTimeZone = event.target.value;
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
